@@ -71,7 +71,7 @@ const submit = () => {
                 </thead>
 
                 <tbody>
-                <tr v-for="(person, i) in props.people" :key="i">
+                <tr v-for="(person, p) in props.people" :key="p">
                     <td class="border px-2 py-1">{{ person.title }}</td>
                     <td class="border px-2 py-1">{{ person.first_name }}</td>
                     <td class="border px-2 py-1">{{ person.initial }}</td>
