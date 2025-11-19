@@ -19,6 +19,10 @@ The project requires a modern Node version. If you use node version manager you 
 
 `nvm use 22`
 
+You will then need to make sure the app has a valid `.env` 
+
+*rename* the `.env.example` to `.env` and use these settings to run the app locally.
+
 This will allow the app to run locally and you can run `composer run dev` to spin up the app.
 
 The default app URL: http://localhost:8000
