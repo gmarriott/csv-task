@@ -100,11 +100,10 @@ class CsvUploadController extends Controller
         }
 
         return [
-            'title'      => $title,
+            'title' => $title,
             'first_name' => $first,
-            'initial'    => $initial,
-            'last_name'  => $last,
+            'initial' => $initial,
+            'last_name' => $last,
         ];
     }
-
 }
