@@ -49,3 +49,11 @@ My core main files are:
 
 `CsvUploadController.php` -> The main logic for the application. Applies the splitting logic to the file uploaded and returns the result as an Inertia response to the home page.
 
+# Resources used
+
+Alongside using the starter kit templating provided by Laravel I also made use of a Laracasts subscription. 
+
+Other resources used included stack overflow for logic on how to validate files ect with Laravel. As well as the Inertia and Vue documentation to understand how it hooks up the frontend facing pages to the routes ect.
+
+Copilot was enabled within my PHPStorm IDE but any suggestions it highlighted, I assessed and decided the correctness of the output - An example is within the Controller it auto suggested the fopen method with the `$request->file('file')->getRealPath()` param.
+
